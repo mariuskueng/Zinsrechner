@@ -1,0 +1,45 @@
+Das isch d'Funktion wo als ersti usgfiert wird.
+Es werde die installierte Drucker (wo ufem pc sin) glade und in dr combobox azeigt.
+
+public Form1()
+        {
+            InitializeComponent();
+            foreach (String PrinterName in PrinterSettings.InstalledPrinters)
+                comboBox1.Items.Add(PrinterName);
+            comboBox1.Text = printDocument1.PrinterSettings.PrinterName;
+	}
+
+
+Das fiert dr druck mit em usgwählte drucker us.
+Das printDocument2 isch das usem baukaste wo me dr drucker ufs form zoge het. mach am beste e neue ihne und due denne dr name vo dem apasse
+
+private void button3_Click(object sender, EventArgs e)
+        {
+            printDocument2.DefaultPageSettings.PrinterSettings.PrinterName = comboBox1.Text;
+            printDocument2.Print();
+        }
+
+
+Das isch dr "Inhalt" vom Druck.
+private void printDocument2_PrintPage(object sender, PrintPageEventArgs e)
+
+Die beide Zahle hinde in dr klammer bi "e.Graphics.DrawString" sind smargin wie im HTML. die 1. seit dr millimeterabstand vom linke siterand und dr 2. dr millimeterabstand vom ober siterand.
+       {
+            e.Graphics.PageUnit = GraphicsUnit.Millimeter;
+            //Überschrift:
+            e.Graphics.DrawString("Zinsrechner", new Font("Arial", 16, FontStyle.Bold), new SolidBrush(Color.Black), 10, 20);
+
+            //Zinsberechnung:
+            e.Graphics.DrawString("Zinsberechnung", new Font("Arial", 10, FontStyle.Bold), new SolidBrush(Color.Black), 10, 30);
+            e.Graphics.DrawString("Anfangskapital: " + txtbox_Anfangskapital2.Text, new Font("Arial", 10), new SolidBrush(Color.Black), 10, 40);
+            e.Graphics.DrawString("Zinssatz in %: " + txtbox_ZinsProzent2.Text, new Font("Arial", 10), new SolidBrush(Color.Black), 10, 45);
+            e.Graphics.DrawString("Endkapital: " + txtbox_Endkapital2.Text, new Font("Arial", 10), new SolidBrush(Color.Black), 10, 50);
+            e.Graphics.DrawString("Zins: " + txtbox_ZinsCHF2.Text, new Font("Arial", 10), new SolidBrush(Color.Black), 10, 55);
+
+            //Zinsfussberechnung:
+            e.Graphics.DrawString("Zinsfussberechnung", new Font("Arial", 10, FontStyle.Bold), new SolidBrush(Color.Black), 10, 65);
+            e.Graphics.DrawString("Anfangskapital: " + txtbox_Anfangskapital3.Text, new Font("Arial", 10), new SolidBrush(Color.Black), 10, 70);
+            e.Graphics.DrawString("Zins: " + txtbox_ZinsCHF3.Text, new Font("Arial", 10), new SolidBrush(Color.Black), 10, 75);
+            e.Graphics.DrawString("Zinssatz in %: " + txtbox_ZinsProzent.Text, new Font("Arial", 10), new SolidBrush(Color.Black), 10, 80);
+
+        }

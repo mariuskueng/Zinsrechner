@@ -1,0 +1,16 @@
+C:\Users\Marius Küng\Desktop\Zinsrechner2010\Zinsrechner2010\bin\Debug\Zinsrechner2010.exe
+C:\Users\Marius Küng\Desktop\Zinsrechner2010\Zinsrechner2010\bin\Debug\Zinsrechner2010.pdb
+C:\Users\Marius Küng\Desktop\Zinsrechner2010\Zinsrechner2010\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Marius Küng\Desktop\Zinsrechner2010\Zinsrechner2010\obj\Debug\Zinsrechner2010.Form1.resources
+C:\Users\Marius Küng\Desktop\Zinsrechner2010\Zinsrechner2010\obj\Debug\Zinsrechner2010.Properties.Resources.resources
+C:\Users\Marius Küng\Desktop\Zinsrechner2010\Zinsrechner2010\obj\Debug\Zinsrechner2010.csproj.GenerateResource.Cache
+C:\Users\Marius Küng\Desktop\Zinsrechner2010\Zinsrechner2010\obj\Debug\Zinsrechner2010.exe
+C:\Users\Marius Küng\Desktop\Zinsrechner2010\Zinsrechner2010\obj\Debug\Zinsrechner2010.pdb
+C:\Users\Marius Küng\Desktop\Zinsrechner2010\obj\Debug\Zinsrechner2010.exe
+C:\Users\Marius Küng\Desktop\Zinsrechner2010\obj\Debug\Zinsrechner2010.pdb
+C:\Users\Marius Küng\Desktop\Zinsrechner2010\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Marius Küng\Desktop\Zinsrechner2010\obj\Debug\Zinsrechner2010.Form1.resources
+C:\Users\Marius Küng\Desktop\Zinsrechner2010\obj\Debug\Zinsrechner2010.Properties.Resources.resources
+C:\Users\Marius Küng\Desktop\Zinsrechner2010\obj\Debug\Zinsrechner2010.csproj.GenerateResource.Cache
+C:\Users\Marius Küng\Desktop\Zinsrechner2010\bin\Debug\Zinsrechner2010.exe
+C:\Users\Marius Küng\Desktop\Zinsrechner2010\bin\Debug\Zinsrechner2010.pdb

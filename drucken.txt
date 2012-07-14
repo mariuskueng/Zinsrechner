@@ -1,0 +1,12 @@
+            RectangleF Rect = new RectangleF();
+            Rect.X = 20; Rect.Y = 40;
+            e.Graphics.DrawString((" aaa "), new Font("Arial", 8, FontStyle.Regular, GraphicsUnit.Millimeter), Brushes.Black, Rect);
+        
+
+
+       printDocument1.DefaultPageSettings.PrinterSettings.PrinterName = comboBox1.Text;
+            printDocument1.Print();
+
+
+            printPreviewDialog1.ShowDialog();
+
